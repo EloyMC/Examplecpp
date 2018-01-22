@@ -1,17 +1,12 @@
 language: cpp
-matrix:
-  include:
-    - os: linux
-      compiler: gcc
-      dist: trusty
-      sudo: required
+compiler:
+  - gcc
 
-before_install:
-  - if test "$TRAVIS_OS_NAME" = "linux"; then
-        sudo apt-get update -q;
-        sudo apt-get install cmake cmake-data g++ gcc libboost-all-devel;
-    fi
+before_script:
+  - mkdir build
+  - cd build
+  - cmake ..
 
-install:
+script: make
 
 
