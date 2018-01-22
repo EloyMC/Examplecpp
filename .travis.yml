@@ -16,7 +16,7 @@ script:
   - make
   - ctest -V
   - cd ..
-  - cpplint --recursive . --exclude=build 
+  - cpplint --recursive ./examplebin ./examplelib ./tests
 
 
 
