@@ -1,3 +1,4 @@
+//  Copyright 2018 HvA
 #include <iostream>
 #include "Foo.h"
 

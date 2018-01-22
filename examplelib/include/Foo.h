@@ -1,8 +1,9 @@
-#ifndef EXAMPLELIB_FOO_H
-#define EXAMPLELIB_FOO_H
+//  Copyright 2018 HvA
+#ifndef FOO_H_
+#define FOO_H_
 #include <string>
 namespace Foo {
     std::string bar(const std::string& hello);
-}; // Foo
+};  // Foo
 
-#endif // EXAMPLELIB_FOO_H
+#endif  //  FOO_H_

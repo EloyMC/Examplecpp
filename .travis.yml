@@ -16,7 +16,9 @@ script:
   - make
   - ctest -V
   - cd ..
-  - cpplint --recursive ./examplebin ./examplelib ./tests
+  - cpplint --repository ./examplelib/include --recursive ./examplelib
+  - cpplint --recursive ./examplebin
+  - cpplint --recursive ./tests
 
 
 
