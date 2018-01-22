@@ -7,7 +7,7 @@ SET(
 include_directories(${CMAKE_SOURCE_DIR}/examplelib/include )
 
 FIND_PACKAGE(
-    Boost 1.60 COMPONENTS 
+    Boost 1.54 COMPONENTS 
     unit_test_framework 
     REQUIRED
 )
